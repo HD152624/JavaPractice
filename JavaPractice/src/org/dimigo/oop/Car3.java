@@ -32,11 +32,11 @@ public class Car3 {
 	}
 	
 	public  Car3(String company, String model, String color, int maxSpeed) {
-		this(company, model, color, maxSpeed, 50000000);
+		this(company, model, color, maxSpeed, 0);
 	}
 	
 	public  Car3(String company, String model, String color) {
-		this(company, model, color, 225);
+		this(company, model, color, 0);
 	}
 	
 
