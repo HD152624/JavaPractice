@@ -31,7 +31,7 @@ public class IdolGroup {
 		int i, j;
 		for(i = 0; i<groupName.length; i++)
 		{
-			System.out.println("<<"+groupName[i]+">>");
+			System.out.println("<< "+groupName[i]+" >>");
 			for(j=0; j<memberName[i].length; j++)
 			{
 				System.out.println(memberName[i][j]);
